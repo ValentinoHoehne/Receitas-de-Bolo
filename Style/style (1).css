@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Times New Roman
+}
+
+.navbar{
+    background-color: lightgray;
+    padding: 15px 0;
+    
+}
+
+.container{
+    max-width:  1200px;
+    margin: 0 25px;
+    padding: 0 10%;
+}
+
+.logo{
+    font-size:  24px;
+    font-weight: bold;
+}
+
+.navbar{
+    list-style-type: none;
+}
+
+.nav-link li a{
+    color: darkgray ;
+    text-decoration: none;    
+}
+
+.nav-link li a:hover{
+    color: cornflowerblue;
+}
+
+.nav-link li{
+    margin-right: 5%;
+}
+
+
+.header div h1{
+    color: darkred;
+}
+.header{
+    background-image: url('');
+    background-size: cover  ;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 100px 0;
+}
+
+
+.recipe-card {
+    box-shadow: 0 0 20px rgb(90, 57, 7);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 20px;
+    gap:  40px ;
+    background: linear-gradient(lightgreen, beige   );;
+    
+}
+
+
+p{
+    margin-left: 40px
+}
+
+a{
+    margin-left: 40px;
+}
+
+
+
+.recipe-card2 {
+    box-shadow: 0 0 20px rgb(90, 57, 7);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 20px;
+    gap:  40px ;
+    background: linear-gradient( pink, black);
+    
+}   
+
+.recipe-card3 {
+    box-shadow: 0 0 20px rgb(90, 57, 7);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 20px;
+    gap:  40px ;
+    background: linear-gradient( brown, orange);
+    
+}   
+
+.btn{
+    display: inline-block;
+    color: deepskyblue;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn2{
+    display: inline-block;
+    color: brown ;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.btn4{
+    display: inline-block;
+    color: red ;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+
+.footer{
+    background-color: gray;
+    color: white;
+}
+
+
+img{
+    height:50%;
+    width: 50%;
+}
+
+
+.img2{
+    height: 31%;
+    width: 31%;
+}
+
+
+body{
+    background-color: lightsteelblue
+}
+
+
